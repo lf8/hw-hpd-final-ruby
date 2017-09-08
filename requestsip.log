@@ -1,0 +1,117 @@
+# Logfile created on 2017-08-04 19:04:40 -0300 by logger.rb/56815
+I, [2017-08-04T19:04:46.155604 #28376]  INFO -- Mensagem: Solicitação de ip 10.1.10.3 do usuário luismarta@example
+I, [2017-08-04T19:04:57.935452 #28378]  INFO -- Mensagem: Solicitação de ip 10.1.10.4 do usuário luismarta@example
+I, [2017-08-04T19:04:59.158634 #28379]  INFO -- Mensagem: Solicitação de ip 10.1.10.5 do usuário luismarta@example
+I, [2017-08-04T19:05:00.276674 #28380]  INFO -- Mensagem: Solicitação de ip 10.1.10.9 do usuário luismarta@example
+I, [2017-08-04T19:05:01.337768 #28381]  INFO -- Mensagem: Solicitação de ip 10.1.10.20 do usuário luismarta@example
+I, [2017-08-04T19:05:02.331610 #28382]  INFO -- Mensagem: Solicitação de ip 10.1.10.22 do usuário luismarta@example
+I, [2017-08-04T19:05:03.249863 #28383]  INFO -- Mensagem: Solicitação de ip 10.1.10.57 do usuário luismarta@example
+I, [2017-08-04T19:05:04.195107 #28384]  INFO -- Mensagem: Solicitação de ip 10.1.10.59 do usuário luismarta@example
+I, [2017-08-04T19:05:05.064817 #28385]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luismarta@example
+I, [2017-08-04T19:05:06.104566 #28386]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luismarta@example
+I, [2017-08-04T19:05:06.907778 #28387]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luismarta@example
+I, [2017-08-04T19:05:07.804924 #28388]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luismarta@example
+I, [2017-08-04T19:05:08.457464 #28389]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luismarta@example
+I, [2017-08-04T19:05:28.673495 #28391]  INFO -- Mensagem: Solicitação de ip 10.1.10.59 do usuário luismarta@example
+I, [2017-08-04T19:05:29.992685 #28392]  INFO -- Mensagem: Solicitação de ip 10.1.10.57 do usuário luismarta@example
+I, [2017-08-04T19:05:30.781054 #28393]  INFO -- Mensagem: Solicitação de ip 10.1.10.22 do usuário luismarta@example
+I, [2017-08-04T19:05:31.503517 #28394]  INFO -- Mensagem: Solicitação de ip 10.1.10.20 do usuário luismarta@example
+I, [2017-08-04T19:05:32.085476 #28395]  INFO -- Mensagem: Solicitação de ip 10.1.10.9 do usuário luismarta@example
+I, [2017-08-04T19:05:32.692415 #28396]  INFO -- Mensagem: Solicitação de ip 10.1.10.5 do usuário luismarta@example
+I, [2017-08-04T19:05:33.332530 #28397]  INFO -- Mensagem: Solicitação de ip 10.1.10.4 do usuário luismarta@example
+I, [2017-08-04T19:05:34.161788 #28398]  INFO -- Mensagem: Solicitação de ip 10.1.10.3 do usuário luismarta@example
+I, [2017-08-04T19:05:34.837092 #28399]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luismarta@example
+I, [2017-08-04T19:05:35.636079 #28400]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luismarta@example
+I, [2017-08-04T19:05:36.341374 #28401]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luismarta@example
+I, [2017-08-04T19:07:23.254577 #28405]  INFO -- Mensagem: Solicitação de ip 10.1.10.3 do usuário luismarta@example
+I, [2017-08-04T19:07:25.971081 #28406]  INFO -- Mensagem: Solicitação de ip 10.1.10.4 do usuário luismarta@example
+I, [2017-08-04T19:07:26.982492 #28407]  INFO -- Mensagem: Solicitação de ip 10.1.10.5 do usuário luismarta@example
+I, [2017-08-04T19:07:27.839898 #28408]  INFO -- Mensagem: Solicitação de ip 10.1.10.9 do usuário luismarta@example
+I, [2017-08-04T19:07:28.599597 #28409]  INFO -- Mensagem: Solicitação de ip 10.1.10.20 do usuário luismarta@example
+I, [2017-08-04T19:07:29.313718 #28410]  INFO -- Mensagem: Solicitação de ip 10.1.10.22 do usuário luismarta@example
+I, [2017-08-04T19:07:30.201877 #28411]  INFO -- Mensagem: Solicitação de ip 10.1.10.57 do usuário luismarta@example
+I, [2017-08-04T19:07:30.990806 #28412]  INFO -- Mensagem: Solicitação de ip 10.1.10.59 do usuário luismarta@example
+I, [2017-08-04T19:07:31.799350 #28413]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luismarta@example
+I, [2017-08-04T19:07:32.886654 #28414]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luismarta@example
+I, [2017-08-04T19:16:07.488211 #28491]  INFO -- Mensagem: Solicitação de ip 10.1.10.59 do usuário luis@lmarta
+I, [2017-08-04T19:16:09.380595 #28493]  INFO -- Mensagem: Solicitação de ip 10.1.10.57 do usuário luis@lmarta
+I, [2017-08-04T19:16:10.732157 #28494]  INFO -- Mensagem: Solicitação de ip 10.1.10.22 do usuário luis@lmarta
+I, [2017-08-04T19:16:11.660609 #28495]  INFO -- Mensagem: Solicitação de ip 10.1.10.20 do usuário luis@lmarta
+I, [2017-08-04T19:16:12.533503 #28496]  INFO -- Mensagem: Solicitação de ip 10.1.10.9 do usuário luis@lmarta
+I, [2017-08-04T19:16:13.332626 #28497]  INFO -- Mensagem: Solicitação de ip 10.1.10.5 do usuário luis@lmarta
+I, [2017-08-04T19:16:14.171238 #28498]  INFO -- Mensagem: Solicitação de ip 10.1.10.4 do usuário luis@lmarta
+I, [2017-08-04T19:16:14.944846 #28499]  INFO -- Mensagem: Solicitação de ip 10.1.10.3 do usuário luis@lmarta
+I, [2017-08-04T19:16:15.787443 #28500]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@lmarta
+I, [2017-08-04T19:16:17.362973 #28501]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@lmarta
+I, [2017-08-04T19:16:18.059788 #28502]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@lmarta
+I, [2017-08-04T19:16:18.745989 #28503]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@lmarta
+I, [2017-08-05T00:57:34.237884 #32198]  INFO -- Mensagem: Solicitação de ip 10.1.10.3 do usuário luis@lmarta
+I, [2017-08-05T00:57:37.378296 #32206]  INFO -- Mensagem: Solicitação de ip 10.1.10.4 do usuário luis@lmarta
+I, [2017-08-05T00:57:39.025496 #32208]  INFO -- Mensagem: Solicitação de ip 10.1.10.5 do usuário luis@lmarta
+I, [2017-08-05T00:57:43.756017 #32224]  INFO -- Mensagem: Solicitação de ip 10.1.10.9 do usuário luis@lmarta
+I, [2017-08-05T00:57:46.446217 #32226]  INFO -- Mensagem: Solicitação de ip 10.1.10.20 do usuário luis@lmarta
+I, [2017-08-05T00:57:47.924111 #32228]  INFO -- Mensagem: Solicitação de ip 10.1.10.22 do usuário luis@lmarta
+I, [2017-08-05T00:57:49.351954 #32232]  INFO -- Mensagem: Solicitação de ip 10.1.10.57 do usuário luis@lmarta
+I, [2017-08-05T00:57:50.685091 #32235]  INFO -- Mensagem: Solicitação de ip 10.1.10.59 do usuário luis@lmarta
+I, [2017-08-05T00:57:52.180809 #32236]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@lmarta
+I, [2017-08-05T00:57:53.677144 #32238]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@lmarta
+I, [2017-08-05T00:57:55.561572 #32239]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@lmarta
+I, [2017-08-05T00:57:57.124960 #32240]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@lmarta
+I, [2017-08-05T00:57:58.791027 #32248]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@lmarta
+I, [2017-08-05T00:58:18.780312 #32263]  INFO -- Mensagem: Solicitação de ip 10.1.10.59 do usuário luis@lmarta
+I, [2017-08-05T00:58:19.796689 #32265]  INFO -- Mensagem: Solicitação de ip 10.1.10.57 do usuário luis@lmarta
+I, [2017-08-05T00:58:20.495610 #32266]  INFO -- Mensagem: Solicitação de ip 10.1.10.22 do usuário luis@lmarta
+I, [2017-08-05T00:58:21.172976 #32267]  INFO -- Mensagem: Solicitação de ip 10.1.10.20 do usuário luis@lmarta
+I, [2017-08-05T00:58:21.847440 #32268]  INFO -- Mensagem: Solicitação de ip 10.1.10.9 do usuário luis@lmarta
+I, [2017-08-05T00:58:22.570974 #32279]  INFO -- Mensagem: Solicitação de ip 10.1.10.5 do usuário luis@lmarta
+I, [2017-08-05T00:58:23.297303 #32280]  INFO -- Mensagem: Solicitação de ip 10.1.10.4 do usuário luis@lmarta
+I, [2017-08-05T00:58:23.978558 #32281]  INFO -- Mensagem: Solicitação de ip 10.1.10.3 do usuário luis@lmarta
+I, [2017-08-05T00:58:24.663897 #32284]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@lmarta
+I, [2017-08-05T00:58:25.822000 #32289]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@lmarta
+I, [2017-09-08T12:04:42.889746 #673]  INFO -- Mensagem: Solicitação de ip 10.1.10.3 do usuário luis@hhhh
+I, [2017-09-08T12:04:49.211114 #674]  INFO -- Mensagem: Solicitação de ip 10.1.10.4 do usuário luis@hhhh
+I, [2017-09-08T12:04:51.296354 #675]  INFO -- Mensagem: Solicitação de ip 10.1.10.5 do usuário luis@hhhh
+I, [2017-09-08T12:04:52.310454 #676]  INFO -- Mensagem: Solicitação de ip 10.1.10.9 do usuário luis@hhhh
+I, [2017-09-08T12:04:53.032748 #677]  INFO -- Mensagem: Solicitação de ip 10.1.10.20 do usuário luis@hhhh
+I, [2017-09-08T12:04:53.690845 #678]  INFO -- Mensagem: Solicitação de ip 10.1.10.22 do usuário luis@hhhh
+I, [2017-09-08T12:04:54.310206 #679]  INFO -- Mensagem: Solicitação de ip 10.1.10.57 do usuário luis@hhhh
+I, [2017-09-08T12:04:54.977652 #680]  INFO -- Mensagem: Solicitação de ip 10.1.10.59 do usuário luis@hhhh
+I, [2017-09-08T12:04:55.647989 #681]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@hhhh
+I, [2017-09-08T12:04:56.690658 #682]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@hhhh
+I, [2017-09-08T12:05:03.990442 #683]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário restart
+I, [2017-09-08T12:05:05.895149 #684]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário restart
+I, [2017-09-08T12:05:46.792980 #686]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário recarrega
+I, [2017-09-08T12:05:49.624381 #689]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário recarrega
+I, [2017-09-08T12:06:28.841614 #691]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário recarrega
+I, [2017-09-08T12:06:34.740121 #692]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@hhhh
+I, [2017-09-08T12:09:20.760394 #702]  INFO -- Mensagem: Solicitação de ip 10.1.10.59 do usuário luis@hhhh
+I, [2017-09-08T12:09:21.981518 #703]  INFO -- Mensagem: Solicitação de ip 10.1.10.57 do usuário luis@hhhh
+I, [2017-09-08T12:09:23.034961 #704]  INFO -- Mensagem: Solicitação de ip 10.1.10.22 do usuário luis@hhhh
+I, [2017-09-08T12:09:24.251046 #705]  INFO -- Mensagem: Solicitação de ip 10.1.10.20 do usuário luis@hhhh
+I, [2017-09-08T12:09:25.144341 #706]  INFO -- Mensagem: Solicitação de ip 10.1.10.9 do usuário luis@hhhh
+I, [2017-09-08T12:09:25.897588 #707]  INFO -- Mensagem: Solicitação de ip 10.1.10.5 do usuário luis@hhhh
+I, [2017-09-08T12:09:26.597480 #708]  INFO -- Mensagem: Solicitação de ip 10.1.10.4 do usuário luis@hhhh
+I, [2017-09-08T12:09:27.398033 #709]  INFO -- Mensagem: Solicitação de ip 10.1.10.3 do usuário luis@hhhh
+I, [2017-09-08T12:09:28.189287 #710]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@hhhh
+I, [2017-09-08T12:09:29.272367 #711]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@hhhh
+I, [2017-09-08T12:16:40.919634 #731]  INFO -- Mensagem: Solicitação de ip 10.1.10.3 do usuário luis@teste
+I, [2017-09-08T12:17:36.268153 #732]  INFO -- Mensagem: Solicitação de ip 10.1.10.4 do usuário luis@teste
+I, [2017-09-08T12:19:23.730312 #733]  INFO -- Mensagem: Solicitação de ip 10.1.10.5 do usuário luis@teste
+I, [2017-09-08T12:19:38.821200 #734]  INFO -- Mensagem: Solicitação de ip 10.1.10.9 do usuário luis@teste
+I, [2017-09-08T13:45:26.031672 #1168]  INFO -- Mensagem: Solicitação de ip 10.1.10.20 do usuário hjhjhjhjhjh
+I, [2017-09-08T13:45:34.300346 #1169]  INFO -- Mensagem: Solicitação de ip 10.1.10.22 do usuário hjhjhjhjhjh
+I, [2017-09-08T13:45:35.202590 #1170]  INFO -- Mensagem: Solicitação de ip 10.1.10.57 do usuário hjhjhjhjhjh
+I, [2017-09-08T13:45:36.254963 #1171]  INFO -- Mensagem: Solicitação de ip 10.1.10.59 do usuário hjhjhjhjhjh
+I, [2017-09-08T13:45:37.055550 #1172]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário hjhjhjhjhjh
+I, [2017-09-08T13:45:38.125007 #1173]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário hjhjhjhjhjh
+I, [2017-09-08T13:47:51.940106 #1185]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário hjhjhjhjhjh
+I, [2017-09-08T14:50:18.571815 #1306]  INFO -- Mensagem: Solicitação de ip 10.1.10.59 do usuário hjhjhjhjhjh
+I, [2017-09-08T14:50:19.843293 #1307]  INFO -- Mensagem: Solicitação de ip 10.1.10.57 do usuário hjhjhjhjhjh
+I, [2017-09-08T14:50:20.769398 #1308]  INFO -- Mensagem: Solicitação de ip 10.1.10.22 do usuário hjhjhjhjhjh
+I, [2017-09-08T16:26:00.391327 #1715]  INFO -- Mensagem: Solicitação de ip 10.1.10.20 do usuário hjhjhjhjhjh
+I, [2017-09-08T16:26:01.928002 #1716]  INFO -- Mensagem: Solicitação de ip 10.1.10.9 do usuário hjhjhjhjhjh
+I, [2017-09-08T16:26:04.475465 #1717]  INFO -- Mensagem: Solicitação de ip 10.1.10.5 do usuário hjhjhjhjhjh
+I, [2017-09-08T16:26:05.713893 #1718]  INFO -- Mensagem: Solicitação de ip 10.1.10.4 do usuário hjhjhjhjhjh
+I, [2017-09-08T16:26:06.630429 #1719]  INFO -- Mensagem: Solicitação de ip 10.1.10.3 do usuário hjhjhjhjhjh
+I, [2017-09-08T16:26:08.662518 #1720]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário hjhjhjhjhjh
+I, [2017-09-08T16:26:10.012983 #1721]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário hjhjhjhjhjh
