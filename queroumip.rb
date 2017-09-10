@@ -12,7 +12,7 @@ class MyCLI < Thor
     Tools.ipdisponivel(login)
   end
   desc "recarregar", "libera todos os IPs para uso"
-  def recarrega()
+  def recarregar()
     Tools.recarregarips()
   end
 end

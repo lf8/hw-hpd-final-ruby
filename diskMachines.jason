@@ -1,0 +1,38 @@
+{
+  "disks1": [
+    {
+      "id":"01",
+      "name":"disc_hpd01",
+      "type":"Quad-Core",
+      "size":"20TB"
+    }],
+  "disks2": [
+    {
+      "id":"02",
+      "name":"disk_hpd02",
+      "type":"Quad-Core",
+      "size":"20TB"
+    }],
+  "disks3": [
+    {
+      "id":"03",
+      "name":"disk_hpd03",
+      "type":"Quad-Core",
+      "size":"20TB"
+    }],
+  "disks4": [
+    {
+      "id":"04",
+      "name":"disk_hpd04",
+      "type":"Quad-Core",
+      "size":"20TB"
+    }],
+  "disks5": [	
+    {
+      "id":"05",
+      "name":"disk_hpd05",
+      "type":"Quad-Core",
+      "size":"20TB"
+    }
+  ]
+}

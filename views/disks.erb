@@ -1,0 +1,10 @@
+<html>
+<head><title>:..Insfraestrutura ágil - Discos..:</title></head>
+<body>
+        <h1>Insfraestrutura ágil - Discos</h1>
+        <% @diskmachinesRest.each do |item, atrib| %>
+                <h2><%= item  %></h2>
+				<h2><%= atrib[0]  %></h2>
+        <%end%>
+</body>
+</html>

@@ -36,24 +36,32 @@ module Tools
     end
 
     def loadipvalidos()
+        @ipsvalidos = File.open("ipdisponivel.list")
         @ipsvalidos.each do |linha|
         @arraydisponivel.push(linha.strip)
         end
+        @arraydisponivel
     end
 
     def loadipinvalidos()
         @ipsinvalidos.each do |linha|
         @arrayindisponivel.push(linha.strip)
         end
+        @arrayindisponivel
     end
 
     def recarregarips()
         @ipsinvalidos.each do |linha|
-        @arrayindisponivel.delete(linha.strip)
-		recarregaip = linha.strip
-        @arraydisponivel.push(recarregaip)
-        File.write('ipdisponivel.list',@arraydisponivel.join("\n"))
-        File.write('ipindisponivel.list',@arrayindisponivel.join("\n"))
+          @arrayindisponivel.delete(linha.strip)
+		      recarregaip = linha.strip
+          @arraydisponivel.push(recarregaip)
+          File.write('ipdisponivel.list',@arraydisponivel.join("\n"))
+          File.write('ipindisponivel.list',@arrayindisponivel.join("\n"))
         end
+    end
+    
+    def listaips()
+      loadipvalidos()
+      #@arraydisponivel
     end
 end

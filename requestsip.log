@@ -115,3 +115,36 @@ I, [2017-09-08T16:26:05.713893 #1718]  INFO -- Mensagem: Solicitação de ip 10.
 I, [2017-09-08T16:26:06.630429 #1719]  INFO -- Mensagem: Solicitação de ip 10.1.10.3 do usuário hjhjhjhjhjh
 I, [2017-09-08T16:26:08.662518 #1720]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário hjhjhjhjhjh
 I, [2017-09-08T16:26:10.012983 #1721]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário hjhjhjhjhjh
+I, [2017-09-09T13:18:53.406115 #12611]  INFO -- Mensagem: Solicitação de ip 10.1.10.3 do usuário luis@ok
+I, [2017-09-09T16:08:10.336076 #16535]  INFO -- Mensagem: Solicitação de ip 10.1.10.4 do usuário luis@ok
+I, [2017-09-09T16:08:19.468336 #16536]  INFO -- Mensagem: Solicitação de ip 10.1.10.5 do usuário luis@ok
+I, [2017-09-09T16:08:20.124947 #16537]  INFO -- Mensagem: Solicitação de ip 10.1.10.9 do usuário luis@ok
+I, [2017-09-09T16:08:20.770457 #16538]  INFO -- Mensagem: Solicitação de ip 10.1.10.20 do usuário luis@ok
+I, [2017-09-09T16:08:21.422136 #16539]  INFO -- Mensagem: Solicitação de ip 10.1.10.22 do usuário luis@ok
+I, [2017-09-09T16:08:22.193485 #16540]  INFO -- Mensagem: Solicitação de ip 10.1.10.57 do usuário luis@ok
+I, [2017-09-09T16:08:22.975160 #16541]  INFO -- Mensagem: Solicitação de ip 10.1.10.59 do usuário luis@ok
+I, [2017-09-09T16:08:23.785008 #16542]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@ok
+I, [2017-09-09T16:10:36.731294 #16615]  INFO -- Mensagem: Solicitação de ip 10.1.10.59 do usuário luis@ok
+I, [2017-09-09T16:10:37.689524 #16616]  INFO -- Mensagem: Solicitação de ip 10.1.10.57 do usuário luis@ok
+I, [2017-09-09T16:10:38.422968 #16617]  INFO -- Mensagem: Solicitação de ip 10.1.10.22 do usuário luis@ok
+I, [2017-09-09T16:10:39.025598 #16618]  INFO -- Mensagem: Solicitação de ip 10.1.10.20 do usuário luis@ok
+I, [2017-09-09T16:10:39.532124 #16619]  INFO -- Mensagem: Solicitação de ip 10.1.10.9 do usuário luis@ok
+I, [2017-09-09T16:10:41.096506 #16620]  INFO -- Mensagem: Solicitação de ip 10.1.10.5 do usuário luis@ok
+I, [2017-09-09T16:10:41.784749 #16621]  INFO -- Mensagem: Solicitação de ip 10.1.10.4 do usuário luis@ok
+I, [2017-09-09T16:10:42.434617 #16622]  INFO -- Mensagem: Solicitação de ip 10.1.10.3 do usuário luis@ok
+I, [2017-09-09T16:10:43.036890 #16623]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@ok
+I, [2017-09-09T16:10:43.624135 #16624]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@ok
+I, [2017-09-09T16:10:44.201631 #16625]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@ok
+I, [2017-09-09T16:11:02.887840 #16632]  INFO -- Mensagem: Solicitação de ip 10.1.10.3 do usuário luis@ok
+I, [2017-09-09T16:19:17.694590 #16863]  INFO -- Mensagem: Solicitação de ip 10.1.10.4 do usuário luis@ok
+I, [2017-09-09T16:19:19.428423 #16864]  INFO -- Mensagem: Solicitação de ip 10.1.10.5 do usuário luis@ok
+I, [2017-09-09T16:19:20.286860 #16865]  INFO -- Mensagem: Solicitação de ip 10.1.10.9 do usuário luis@ok
+I, [2017-09-09T16:19:21.064934 #16866]  INFO -- Mensagem: Solicitação de ip 10.1.10.20 do usuário luis@ok
+I, [2017-09-09T16:19:22.036928 #16867]  INFO -- Mensagem: Solicitação de ip 10.1.10.22 do usuário luis@ok
+I, [2017-09-09T16:19:22.797390 #16868]  INFO -- Mensagem: Solicitação de ip 10.1.10.57 do usuário luis@ok
+I, [2017-09-09T16:19:23.657134 #16869]  INFO -- Mensagem: Solicitação de ip 10.1.10.59 do usuário luis@ok
+I, [2017-09-09T16:19:24.672723 #16870]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@ok
+I, [2017-09-09T16:44:18.476547 #17652]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@ok
+I, [2017-09-09T16:44:42.520092 #17654]  INFO -- Mensagem: Solicitação de ip 10.1.10.59 do usuário luis@ok
+I, [2017-09-09T16:44:48.403885 #17657]  INFO -- Mensagem: Solicitação de ip 10.1.10.57 do usuário luis@ok
+I, [2017-09-09T16:52:39.203405 #17971]  INFO -- Mensagem: Solicitação de ip 10.1.10.22 do usuário luis@ok
