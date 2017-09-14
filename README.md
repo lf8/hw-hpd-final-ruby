@@ -13,7 +13,7 @@ bundle exec ruby application    # To run the sample
 
 http://localhost:8081/
 
-Go!
+Vai!!!!
 ===
 
 Abrir  [http://localhost:8081/](http://localhost:8081/)
