@@ -1,0 +1,40 @@
+<html>
+<head><title>:.. Insfraestrutura ágil ..:</title></head>
+<body>
+<h1>Ruby exemple using API</h1>
+
+<h2>Methods API</h2>
+
+<h3>::GET</h3>
+<p>Networkin  	-  	http://localhost:8081/netw</p>
+<p>Disks  		-  	http://localhost:8081/disks</p>
+<p>Vms  		-  	http://localhost:8081/vms</p>
+
+<h3>::POST</h3>
+<p>Networkin  	-  	http://localhost:8081/cadastrarIP</p>
+<p>Disks  		-  	http://localhost:8081/cadastrardiscos</p>
+<p>Vms  		-  	http://localhost:8081/cadastrarvm</p>
+
+<h3>::DELETE</h3>
+<p>Networkin  	-  	http://localhost:8081/netw/ID</p>
+<p>Disks  		-  	http://localhost:8081/disks/ID</p>
+<p>Vms  		-  	http://localhost:8081/vms/ID</p>
+
+<p>Example 	- 	curl -H 'Content-Type: application/json' -H 'Accept: application/json' -X DELETE -d '{"disks1": [{"id":"01", "name":"disc_hpd01", "type":"SATA", "size":"20TB"}]}' http://localhost:8081/disks/01</p>
+
+<h3>::PUT</h3>
+<p>Networkin  	-  	http://localhost:8081/netw/ID</p>
+<p>Disks  		-  	http://localhost:8081/disks/ID</p>
+<p>Vms  		-  	http://localhost:8081/vms/ID</p>
+
+<p>Example		- 	curl -H 'Content-Type: application/json' -H 'Accept: application/json' -X PUT -d '{"disks1": [{"id":"01", "name":"disc_hpd01", "type":"SATA", "size":"20TB"}]}' http://localhost:8081/disks/01</p>
+
+
+<h1>JSON DATA EXAMPLE</h1>
+
+<p>Networkin	- [{"ip":"10.1.10.56"}]</p>
+<p>Disks		- [{"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}]</p>
+<p>Vms			- [{"VirtualMachines01"=>[{"id":"01","name":"hpd01","cpu":"Quad-Core","ram":"96","disk":"20TB"}]}]</p>
+
+</body>
+</html>

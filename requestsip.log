@@ -148,3 +148,42 @@ I, [2017-09-09T16:44:18.476547 #17652]  INFO -- Critico: Falhou não há mais ip
 I, [2017-09-09T16:44:42.520092 #17654]  INFO -- Mensagem: Solicitação de ip 10.1.10.59 do usuário luis@ok
 I, [2017-09-09T16:44:48.403885 #17657]  INFO -- Mensagem: Solicitação de ip 10.1.10.57 do usuário luis@ok
 I, [2017-09-09T16:52:39.203405 #17971]  INFO -- Mensagem: Solicitação de ip 10.1.10.22 do usuário luis@ok
+I, [2017-09-12T15:07:45.246976 #57507]  INFO -- Mensagem: Solicitação de ip 10.1.10.20 do usuário luis@ok
+I, [2017-09-14T13:36:58.247210 #133]  INFO -- Mensagem: Solicitação de ip 10.1.10.9 do usuário luis@ok
+I, [2017-09-14T13:37:04.895944 #151]  INFO -- Mensagem: Solicitação de ip 10.1.10.5 do usuário luis@ok
+I, [2017-09-14T13:47:05.740954 #358]  INFO -- Mensagem: Solicitação de ip 10.1.10.4 do usuário luis@ok
+I, [2017-09-14T13:49:28.677656 #463]  INFO -- Mensagem: Solicitação de ip 10.1.10.3 do usuário luis@ok
+I, [2017-09-14T13:51:17.565404 #562]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@ok
+I, [2017-09-14T13:52:03.886771 #586]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@ok
+I, [2017-09-14T13:52:06.721071 #587]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@ok
+I, [2017-09-14T13:52:34.059931 #633]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@ok
+I, [2017-09-14T13:59:59.202954 #764]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@ok
+I, [2017-09-14T14:26:41.608878 #1749]  INFO -- Mensagem: Atualizando o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:27:56.332596 #1749]  INFO -- Mensagem: Atualizando o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:31:23.886576 #1805]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@ok
+I, [2017-09-14T14:31:25.348383 #1806]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@ok
+I, [2017-09-14T14:31:28.473843 #1794]  INFO -- Mensagem: Atualizando o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:31:15.741141 #1794]  INFO -- Mensagem: Atualizando o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:30:41.537496 #1794]  INFO -- Mensagem: Atualizando o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:30:20.234511 #1794]  INFO -- Mensagem: Atualizando o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:30:16.571063 #1794]  INFO -- Mensagem: Atualizando o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:29:55.563906 #1794]  INFO -- Mensagem: Atualizando o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:31:50.930071 #1794]  INFO -- Mensagem: Atualizando o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:32:50.861685 #1840]  INFO -- Mensagem: Atualizando o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:33:09.398803 #1843]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@ok
+I, [2017-09-14T14:33:15.231416 #1842]  INFO -- Mensagem: Atualizando o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:37:15.411746 #1989]  INFO -- Mensagem: Atualizando o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:38:04.533993 #1995]  INFO -- Critico: Falhou não há mais ips disponiveis para usuário luis@ok
+I, [2017-09-14T14:37:56.316569 #1991]  INFO -- Mensagem: Atualizando o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:37:59.050410 #1991]  INFO -- Mensagem: Atualizando o id 02, json informando {"disks1"=>[{"id"=>"02", "name"=>"disc_hpd02", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:37:52.609530 #1991]  INFO -- Mensagem: Atualizando o id 02, json informando {"disks1"=>[{"id"=>"02", "name"=>"disc_hpd02", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:38:35.356204 #1996]  INFO -- Mensagem: Atualizando o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:38:26.954232 #1996]  INFO -- Mensagem: Atualizando o id 02, json informando {"disks1"=>[{"id"=>"02", "name"=>"disc_hpd02", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:42:07.903793 #2095]  INFO -- Mensagem: atualizando o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:43:36.949513 #2121]  INFO -- Mensagem: removendo o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:43:41.522342 #2121]  INFO -- Mensagem: removendo o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:54:15.343696 #2383]  INFO -- Mensagem: removendo o id 01, json informando {"disks1"=>[{"id"=>"01", "name"=>"disc_hpd01", "type"=>"SATA", "size"=>"20TB"}]}
+I, [2017-09-14T14:54:25.426981 #2383]  INFO -- Mensagem: cadastrando o id , json informando [{"ip":"10.1.10.56"}]
+I, [2017-09-14T14:57:57.691647 #2501]  INFO -- Mensagem: cadastrando o id , json informando [{"name":"dev-luismarta","size":"20TB","type":"SATA"}]
+I, [2017-09-14T15:01:12.150388 #2597]  INFO -- Mensagem: cadastrando disco o id , json informando [{"name":"ruby-codeops","size":"20TB","type":"SATA"}]
+I, [2017-09-14T15:46:53.116825 #3380]  INFO -- Mensagem: Solicitação de ip 10.1.10.3 do usuário luis@ok.com.br

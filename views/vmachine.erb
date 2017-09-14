@@ -1,0 +1,13 @@
+<html>
+<head><title>:..Insfraestrutura ágil - Discos..:</title></head>
+<body>
+        <h1>Insfraestrutura ágil - Discos</h1>
+		<h2>Listando servidores do ambiente: </h2>
+        <% @virtualmachinesRest.each do |item, atrib| %>
+				<h3>Nome: <%= atrib[0]["name"]%></h3>
+				<h5>Processador: <%= atrib[0]["cpu"] %></h5>
+				<h5>Memoria: <%= atrib[0]["ram"] %></h5>
+				<h5>Disco local: <%= atrib[0]["disk"] %></h5>
+        <%end%>
+</body>
+</html>

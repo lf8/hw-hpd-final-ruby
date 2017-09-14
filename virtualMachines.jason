@@ -1,39 +1,43 @@
 {
-  "VirtualMachines": [
+  "VirtualMachines01": [
     {
       "id":"01",
       "name":"hpd01",
       "cpu":"Quad-Core",
       "ram":"96",
-      "disc":"20TB"
-    },
+      "disk":"20TB"
+    }],
+  "VirtualMachines02": [
     {
       "id":"02",
       "name":"hpd02",
       "cpu":"Quad-Core",
       "ram":"96",
-      "disc":"20TB"
-    },
+      "disk":"20TB"
+    }],
+  "VirtualMachines03": [
     {
       "id":"03",
       "name":"hpd03",
       "cpu":"Quad-Core",
       "ram":"48",
-      "disc":"20TB"
-    },
+      "disk":"20TB"
+    }],
+  "VirtualMachines04": [
     {
       "id":"04",
       "name":"hpd04",
       "cpu":"Quad-Core",
       "ram":"24",
-      "disc":"20TB"
-    },
+      "disk":"20TB"
+    }],
+  "VirtualMachines05": [
     {
       "id":"05",
       "name":"hpd05",
       "cpu":"Quad-Core",
       "ram":"12",
-      "disc":"20TB"
+      "disk":"20TB"
     }
   ]
 }

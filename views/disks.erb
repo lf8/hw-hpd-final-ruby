@@ -2,9 +2,12 @@
 <head><title>:..Insfraestrutura ágil - Discos..:</title></head>
 <body>
         <h1>Insfraestrutura ágil - Discos</h1>
+		<h2>Listando discos do ambiente: </h2>
         <% @diskmachinesRest.each do |item, atrib| %>
-                <h2><%= item  %></h2>
-				<h2><%= atrib[0]  %></h2>
+                <h2>Disco: <%= item  %></h2>
+				<h5>Nome: <%= atrib[0]["name"]%></h5>
+				<h5>Tamanho: <%= atrib[0]["size"] %></h5>
+				<h5>Tipo: <%= atrib[0]["type"] %></h5>
         <%end%>
 </body>
 </html>
