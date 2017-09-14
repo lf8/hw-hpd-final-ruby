@@ -1,26 +1,33 @@
-# hw-hpd-final-ruby
+hw-hpd-final-ruby
+====
+Download and run hw-hpd-final-ruby:
 
 git clone https://github.com/lf8/hw-hpd-final-ruby.git
 
 cd hw-hpd-final-ruby
 
-bundle install             		# To install sinatra
+bundle install                  # To install sinatra
 
 bundle exec ruby application    # To run the sample
 
 http://localhost:8081/
 
-Methods API
+Go!
+===
 
-::GET
-Networkin  	-  	http://localhost:8081/netw
-Disks  		-  	http://localhost:8081/disks
-Vms  		-  	http://localhost:8081/vms
+Abrir  [http://localhost:8081/](http://localhost:8081/)
+
+Methods API's
+=============
+
+Networkin  	-  	[http://localhost:8081/netw/](http://localhost:8081/netw)
+Disks  		-  	[http://localhost:8081/disks](http://localhost:8081/disks)
+Vms  		-  	[http://localhost:8081/vms](http://localhost:8081/vms)
 
 ::POST
-Networkin  	-  	http://localhost:8081/cadastrarIP
-Disks  		-  	http://localhost:8081/cadastrardiscos
-Vms  		-  	http://localhost:8081/cadastrarvm
+Networkin  	-  	[http://localhost:8081/cadastrarIP](http://localhost:8081/cadastrarIP)
+Disks  		-  	[http://localhost:8081/cadastrardiscos](http://localhost:8081/cadastrardiscos)
+Vms  		-  	[http://localhost:8081/cadastrarvm](http://localhost:8081/cadastrarvm)
 
 ::DELETE
 Networkin  	-  	http://localhost:8081/netw/ID
