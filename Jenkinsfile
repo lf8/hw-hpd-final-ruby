@@ -4,7 +4,8 @@ pipeline {
     stage('Build') {
       steps {
         sh '''echo 'build'
-ls'''
+ls
+docker ps'''
       }
     }
     stage('Tests') {
@@ -14,7 +15,7 @@ ls'''
     }
     stage('Aproval') {
       steps {
-        input 'Você aprova?'
+        input 'VocÃª aprova?'
       }
     }
     stage('Deploy') {
