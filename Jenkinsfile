@@ -10,6 +10,8 @@ ls
 whoami
 pwd
 echo ${BUILD_TAG}
+echo ${BUILD_NUMBER}
+echo ${GIT_COMMIT}
 '''
             sleep 20
             
