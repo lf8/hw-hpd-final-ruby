@@ -11,7 +11,7 @@ bundle install                  # To install sinatra
 
 bundle exec ruby application    # To run the sample
 
-http://localhost:8081/
+[http://localhost:8081/](http://localhost:8081/)
 
 Vai!!!!
 ===
