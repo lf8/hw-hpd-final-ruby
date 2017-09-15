@@ -19,7 +19,7 @@ echo ${GIT_COMMIT}
           "SCP GoogleCloud": {
             sh '''echo 'Realizando o SCP'
 ls
-echo ${last_tag}'''
+echo $last_tag'''
             
           }
         )
