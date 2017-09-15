@@ -6,7 +6,8 @@ pipeline {
         sh '''echo 'Gerando o pacote'
 ls
 whoami
-pwd'''
+pwd
+fpm'''
       }
     }
     stage('Tests') {
