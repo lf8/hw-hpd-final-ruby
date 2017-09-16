@@ -12,7 +12,7 @@ pwd
 echo ${BUILD_TAG}
 echo ${BUILD_NUMBER}
 echo ${GIT_COMMIT}
-fpm -m "Luis Marta, <luistecnologia@gmail.com>" --url "http://firma.org.br" --description "Ruby Final" -a noarch -s dir -t rpm -n rubyfinal --rpm-user root --rpm-group root -v 0.0.9 --prefix /opt/rubyfinal .'''
+/usr/local/bin/fpm -m "Luis Marta, <luistecnologia@gmail.com>" --url "http://firma.org.br" --description "Ruby Final" -a noarch -s dir -t rpm -n rubyfinal --rpm-user root --rpm-group root -v 0.0.9 --prefix /opt/rubyfinal .'''
             sleep 8
             
           },
