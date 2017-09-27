@@ -20,6 +20,7 @@ echo ${GIT_COMMIT}
             sh '''echo 'Realizando o SCP'
 ls
 echo $last_tag
+echo env
 scp rubyfinal-0.0.9-1.noarch.rpm jenkins@35.202.45.65:/home/jenkins'''
             
           }
