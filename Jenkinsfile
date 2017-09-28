@@ -12,6 +12,7 @@ pwd
 echo ${BUILD_TAG}
 echo ${BUILD_NUMBER}
 echo ${GIT_COMMIT}
+env
 '''
             sleep 8
             
