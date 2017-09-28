@@ -6,22 +6,20 @@ pipeline {
         parallel(
           "Build": {
             sh '''echo 'Gerando o pacote'
-ls
+ls -la
 whoami
 pwd
 
 /usr/local/bin/fpm -m "Luis Marta, <luistecnologia@gmail.com>" --url "http://firma.org.br" --description "Ruby Final" -a noarch -s dir -t rpm -n rubyfinal --rpm-user root --rpm-group root -v 0.1.${BUILD_NUMBER} --prefix /opt/rubyfinal .
 '''
-            sleep 20
+            sleep(time: 2, unit: 'MINUTES')
             
           },
           "SCP GoogleCloud": {
             sleep 5
             sh '''echo 'Realizando o SCP'
-ls
-env
+ls -la
 scp rubyfinal-0.1.${BUILD_NUMBER}-1.noarch.rpm jenkins@35.202.45.65:/home/jenkins
-echo ${WORKSPACE}
 '''
             
           }
