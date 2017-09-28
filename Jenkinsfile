@@ -24,7 +24,7 @@ env
 ls
 echo $last_tag
 env
-scp rubyfinal-0.0.9-1.noarch.rpm jenkins@35.202.45.65:/home/jenkins'''
+scp rubyfinal-0.0.${BUILD_NUMBER}-1.noarch.rpm jenkins@35.202.45.65:/home/jenkins'''
             
           }
         )
