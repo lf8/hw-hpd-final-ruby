@@ -40,7 +40,7 @@ scp rubyfinal-0.1.${BUILD_NUMBER}-1.noarch.rpm jenkins@35.202.45.65:/home/jenkin
         sh 'echo \'deploy\''
       }
     }
-    stage('TesteProduÃ§Ã£o') {
+    stage('TesteProdução') {
       steps {
         sh 'ssh jenkins@35.202.45.65 "/opt/rubyteste/sinatra-bootstrap/./validaSinatra.py"'
       }
