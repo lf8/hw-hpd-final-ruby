@@ -29,7 +29,7 @@ docker build -t ruby-stage .'''
           "Tests": {
             sh '''echo 'Gerando e subindo imagem'
 ls -l
-docker run -it -p 4567:4567 ruby-stage'''
+docker run -d -p 4567:4567 ruby-stage'''
             sleep 15
             
           },
