@@ -13,12 +13,12 @@ pwd
 '''
             
           },
-          "SCP GoogleCloud": {
+          "BuildandoParaTeste": {
             sleep 5
-            sh '''echo 'Realizando o SCP'
-ls -la
-scp rubyfinal-0.1.${BUILD_NUMBER}-1.noarch.rpm jenkins@35.202.45.65:/home/jenkins
-'''
+            sh '''echo 'Efetuando instalação do Pacote para teste'
+ls -l
+sudo rpm -e rubyfinal
+sudo rpm -ivh rubyfinal-0.0.${BUILD_NUMBER}-1.noarch.rpm'''
             
           }
         )
@@ -26,7 +26,21 @@ scp rubyfinal-0.1.${BUILD_NUMBER}-1.noarch.rpm jenkins@35.202.45.65:/home/jenkin
     }
     stage('Tests') {
       steps {
-        sleep 5
+        parallel(
+          "Tests": {
+            sleep 5
+            sh '''echo 'Gerando e subindo imagem'
+ls -l
+docker build -t ruby-stage .
+docker run -it -p 4567:4567 ruby-stage'''
+            
+          },
+          "TestAPPviaSSH": {
+            sh '''ls -la
+'''
+            
+          }
+        )
       }
     }
     stage('Aproval') {
@@ -46,8 +60,7 @@ bundle exec ruby application.rb'''
     }
     stage('TesteProducao') {
       steps {
-        sh '''ssh jenkins@35.202.45.65 "/opt/rubyteste/sinatra-bootstrap/./validaSinatra.py"
-sudo rpm -e rubyfinal
+        sh '''sudo rpm -e rubyfinal
 scl enable rh-ruby22 bash
 sudo rpm -ivh rubyfinal-0.0.${BUILD_NUMBER}-1.noarch.rpm
 bundle install
