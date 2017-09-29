@@ -9,8 +9,6 @@ require '/var/opt/sinatra/src/control_ip'
 require 'json'
 require 'logger'
 
-set :port, 8081
-
 get '/' do
   erb :help
 end
