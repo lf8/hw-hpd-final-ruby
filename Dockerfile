@@ -1,3 +1,3 @@
-FROM mateusprado/sinatra-alpine
+FROM luismarta/sinatrajson-alpine
 
 COPY . $APP_PATH
