@@ -15,7 +15,7 @@ pwd
           },
           "BuildandoParaTeste": {
             sleep 5
-            sh '''echo 'Subindo aplicação no Docker para teste'
+            sh '''echo 'Subindo aplicaÃ§Ã£o no Docker para teste'
 ls -l
 docker build -t ruby-stage .'''
             
@@ -35,7 +35,7 @@ docker run -it -p 4567:4567 ruby-stage'''
           },
           "TestAPPLocal": {
             sh '''ls -la
-./validaSinatra.py'''
+./validaapp.py'''
             
           }
         )
