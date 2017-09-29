@@ -30,10 +30,10 @@ docker build -t ruby-stage .'''
             sh '''echo 'Gerando e subindo imagem'
 ls -l
 docker run -d -p 4567:4567 ruby-stage'''
-            sleep 15
             
           },
           "TestAPPLocal": {
+            sleep 20
             sh '''ls -la
 chmod +x validaapp.py
 ./validaapp.py'''
