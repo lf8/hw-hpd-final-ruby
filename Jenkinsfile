@@ -35,6 +35,7 @@ docker run -it -p 4567:4567 ruby-stage'''
           },
           "TestAPPLocal": {
             sh '''ls -la
+chmod +x validaapp.py
 ./validaapp.py'''
             
           }
