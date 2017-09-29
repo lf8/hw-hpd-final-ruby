@@ -50,7 +50,7 @@ chmod +x validaapp.py
     stage('Deploy') {
       steps {
         sh '''echo 'deploy'
-ssh jenkins@35.202.45.65 "sudo rpm -e rubyfinal"
+ssh jenkins@35.202.45.65 "[ -f /opt/rubyfinal/README.md ] && sudo rpm -e rubyfinal || echo 'File does not exist'"
 ssh jenkins@35.202.45.65 "scl enable rh-ruby22 bash"
 ssh jenkins@35.202.45.65 "sudo rpm -ivh rubyfinal-0.0.${BUILD_NUMBER}-1.noarch.rpm"
 ssh jenkins@35.202.45.65 "bundle install"
