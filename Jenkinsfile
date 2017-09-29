@@ -15,7 +15,7 @@ pwd
           },
           "BuildandoParaTeste": {
             sleep 5
-            sh '''echo 'Subindo aplicação no Docker para teste'
+            sh '''echo 'Subindo app no Docker para teste'
 ls -l
 docker build -t ruby-stage .'''
             
@@ -27,10 +27,10 @@ docker build -t ruby-stage .'''
       steps {
         parallel(
           "Tests": {
-            sleep 5
             sh '''echo 'Gerando e subindo imagem'
 ls -l
 docker run -it -p 4567:4567 ruby-stage'''
+            sleep 15
             
           },
           "TestAPPLocal": {
