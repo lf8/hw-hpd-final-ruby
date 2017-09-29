@@ -3,7 +3,7 @@ import requests
 import sys
 def testesite():
     try:
-        resposta = requests.get('http://localhost:8080')
+        resposta = requests.get('http://localhost:4567')
         print resposta.status_code
     except requests.ConnectionError as e:
         print('App esta down', e)
