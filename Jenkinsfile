@@ -15,10 +15,9 @@ pwd
           },
           "BuildandoParaTeste": {
             sleep 5
-            sh '''echo 'Efetuando instalação do Pacote para teste'
+            sh '''echo 'Subindo aplicação no Docker para teste'
 ls -l
-sudo rpm -e rubyfinal
-sudo rpm -ivh rubyfinal-0.0.${BUILD_NUMBER}-1.noarch.rpm'''
+docker build -t ruby-stage .'''
             
           }
         )
@@ -31,13 +30,12 @@ sudo rpm -ivh rubyfinal-0.0.${BUILD_NUMBER}-1.noarch.rpm'''
             sleep 5
             sh '''echo 'Gerando e subindo imagem'
 ls -l
-docker build -t ruby-stage .
 docker run -it -p 4567:4567 ruby-stage'''
             
           },
-          "TestAPPviaSSH": {
+          "TestAPPLocal": {
             sh '''ls -la
-'''
+./validaSinatra.py'''
             
           }
         )
@@ -45,26 +43,22 @@ docker run -it -p 4567:4567 ruby-stage'''
     }
     stage('Aproval') {
       steps {
-        input 'VocÃƒÆ’Ã‚Âª aprova?'
+        input 'Aprova para Deploy?'
       }
     }
     stage('Deploy') {
       steps {
         sh '''echo 'deploy'
-sudo rpm -e rubyfinal
-scl enable rh-ruby22 bash
-sudo rpm -ivh rubyfinal-0.0.${BUILD_NUMBER}-1.noarch.rpm
-bundle install
-bundle exec ruby application.rb'''
+ssh jenkins@35.202.45.65 "sudo rpm -e rubyfinal"
+ssh jenkins@35.202.45.65 "scl enable rh-ruby22 bash"
+ssh jenkins@35.202.45.65 "sudo rpm -ivh rubyfinal-0.0.${BUILD_NUMBER}-1.noarch.rpm"
+ssh jenkins@35.202.45.65 "bundle install"
+ssh jenkins@35.202.45.65 "bundle exec ruby application.rb"'''
       }
     }
     stage('TesteProducao') {
       steps {
-        sh '''sudo rpm -e rubyfinal
-scl enable rh-ruby22 bash
-sudo rpm -ivh rubyfinal-0.0.${BUILD_NUMBER}-1.noarch.rpm
-bundle install
-bundle exec ruby application.rb'''
+        sh 'ls -la'
       }
     }
   }
