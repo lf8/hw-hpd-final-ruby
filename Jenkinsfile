@@ -29,7 +29,7 @@ docker build -t ruby-stage:latest .'''
           "Tests": {
             sh '''echo 'Gerando e subindo imagem'
 ls -l
-docker run -d -p 4567:4567 --name ruby-teste ruby-stage:latest'''
+docker run -d -p 4567:4567 ruby-stage:latest'''
             
           },
           "TestAPPLocal": {
