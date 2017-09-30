@@ -28,7 +28,6 @@ docker build -t ruby-stage:latest .'''
         parallel(
           "Tests": {
             sh '''echo 'Gerando e subindo imagem'
-docker stop ruby-teste
 ls -l
 docker run -d -p 4567:4567 --name ruby-teste ruby-stage:latest'''
             
