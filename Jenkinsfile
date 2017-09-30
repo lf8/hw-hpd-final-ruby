@@ -53,7 +53,6 @@ chmod +x validaapp.py
 ssh jenkins@35.202.45.65 "[ -f /opt/rubyfinal/README.md ] && sudo rpm -e rubyfinal || echo 'File does not exist'"
 scp rubyfinal-0.1.${BUILD_NUMBER}-1.noarch.rpm jenkins@35.202.45.65:/home/jenkins
 ssh jenkins@35.202.45.65 "sudo rpm -ivh rubyfinal-0.1.${BUILD_NUMBER}-1.noarch.rpm"
-ssh jenkins@35.202.45.65 "chmod +x /opt/rubyfinal/upapp.sh"
 ssh jenkins@35.202.45.65 "/opt/rubyfinal/./upapp.sh"'''
       }
     }
