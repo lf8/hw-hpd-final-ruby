@@ -14,10 +14,10 @@ pwd
             
           },
           "BuildandoParaTeste": {
-            sleep 5
+            sleep 2
             sh '''echo 'Subindo app no Docker para teste'
 ls -l
-docker build -t ruby-stage .'''
+docker build -t ruby-stage:latest .'''
             
           }
         )
@@ -29,11 +29,11 @@ docker build -t ruby-stage .'''
           "Tests": {
             sh '''echo 'Gerando e subindo imagem'
 ls -l
-docker run -d -p 4567:4567 ruby-stage'''
+docker run -d -p 4567:4567 ruby-stage:latest'''
             
           },
           "TestAPPLocal": {
-            sleep 20
+            sleep 5
             sh '''ls -la
 chmod +x validaapp.py
 ./validaapp.py'''
